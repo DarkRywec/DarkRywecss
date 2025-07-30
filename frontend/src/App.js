@@ -12,6 +12,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
         </Routes>
       </BrowserRouter>
+      <Toaster />
     </div>
   );
 }
